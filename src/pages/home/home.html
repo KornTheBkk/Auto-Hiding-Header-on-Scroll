@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header #head>
   <ion-navbar>
     <ion-title>
       Auto Hiding Header on Scroll
@@ -6,12 +6,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding hide-header [header]="head">
 
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue lacus, iaculis in sollicitudin et, consequat eu ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras pharetra, augue eget tempor efficitur, nibh risus semper lorem, pellentesque convallis massa metus sit amet augue. Nullam nec enim pellentesque, aliquet tortor vitae, varius arcu. Vestibulum aliquet lobortis erat in facilisis. Nulla dictum massa ut congue pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce sit amet accumsan leo. Proin quis viverra velit. Etiam viverra eget erat in mollis. Sed sed mi molestie, efficitur urna non, accumsan mauris. Sed posuere lacinia odio. Quisque id nibh non est finibus vehicula at sed purus. Nulla rhoncus aliquet felis, eget iaculis neque. Etiam fermentum congue volutpat. Pellentesque finibus sit amet enim ut placerat.</p>
   <p>Quisque sagittis libero sit amet mattis facilisis. Vivamus at mi ac mi feugiat imperdiet in quis mauris. Aenean quis ultricies libero, vel rhoncus erat. Pellentesque elementum vehicula justo, quis maximus metus interdum at. Praesent elit diam, interdum sed justo quis, rhoncus pellentesque lacus. Praesent placerat eu risus sit amet consectetur. Morbi tristique, velit a varius ornare, urna velit efficitur purus, at malesuada mauris elit tempus tellus. Nam mi eros, varius sed fringilla sit amet, faucibus vel nulla. Vivamus gravida ligula id turpis pellentesque tempus. Vivamus mauris dolor, tincidunt sed lorem ut, congue pretium nisi. Donec faucibus massa quis sapien vestibulum euismod. Fusce interdum nibh a urna cursus venenatis. Morbi imperdiet sapien eget felis eleifend, eu mollis nisi porttitor.</p>
   <p>Sed sollicitudin purus sed finibus aliquet. Proin bibendum vestibulum sem. Nunc tempor ante sed velit iaculis maximus. Phasellus interdum a dui vitae fermentum. Curabitur malesuada magna vel libero tristique, non suscipit ante ultricies. Mauris euismod, nisi sit amet porta suscipit, ex urna feugiat metus, porttitor faucibus libero sem a leo. Phasellus feugiat blandit quam, ac porttitor nisl tempus a. Aenean id tempor lorem. Integer semper ullamcorper erat, viverra interdum orci vestibulum feugiat. Morbi nibh nisi, mollis sed tincidunt et, iaculis eget metus. Nulla facilisi. Integer est massa, feugiat eu risus non, sodales consectetur augue. Cras consectetur nulla id orci pharetra, id lacinia enim consectetur. Fusce gravida est id maximus tempus.</p>
   <p>Proin felis metus, facilisis varius arcu ut, scelerisque imperdiet nisl. Etiam mattis turpis magna, vel semper nibh hendrerit a. Maecenas urna erat, tincidunt sed felis ut, lobortis placerat elit. Nunc ante justo, ultricies in nulla quis, scelerisque vestibulum dolor. Donec vehicula lectus vitae ipsum tincidunt tincidunt ac sagittis ex. Pellentesque vel justo tristique, sagittis tellus sit amet, varius enim. Pellentesque egestas lorem eget nisl convallis feugiat. Duis faucibus feugiat lacus, vel vulputate augue aliquet et. Etiam in tempus mauris. Duis porttitor, libero id tempor bibendum, lorem magna ullamcorper eros, id finibus ante nunc vel neque. Nulla fermentum mi sem, quis scelerisque dolor laoreet eu. Maecenas semper commodo orci, in fermentum metus ornare eget. Donec non elit suscipit, fringilla mauris nec, imperdiet leo. Etiam vel commodo nisl. Vestibulum felis leo, imperdiet id purus tempus, dictum dictum erat.</p>
   <p>Praesent augue ante, feugiat et ligula efficitur, rhoncus cursus sem. Phasellus congue congue dui, eget aliquam diam hendrerit sit amet. Integer bibendum ante quis ipsum rhoncus, sit amet viverra velit interdum. Pellentesque sollicitudin pretium felis eget venenatis. Integer non quam vulputate, commodo dolor non, fringilla justo. Mauris at fermentum leo. Praesent facilisis turpis ac ex finibus, in facilisis nunc condimentum.</p>
-  
+
 </ion-content>
