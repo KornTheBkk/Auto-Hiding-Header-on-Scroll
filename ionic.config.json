@@ -1,0 +1,8 @@
+{
+  "name": "scrolling-header",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
